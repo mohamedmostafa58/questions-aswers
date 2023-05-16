@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Almarai', sans-serif;
+font-family: 'Crimson Pro', serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #faf9f9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.holder{
+  margin-top: 10vh;
+}
+.buttn{
+  background-color: rgb(11, 58, 59);
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.buttn2{
+  font-size: 15px;
+
+}
+summary{
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 1px;
+  width: 87%;
+  border-radius: 5px;
+  position: relative;
+  list-style-type:none;
+  font-size:25px
+}
+summary::after{
+  content: "+";
+  font-size: 25px;
+  line-height: 1;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+details[open] summary::after{
+  content:"-"
+}
+details[open] summary{
+  border: 1px solid black;
+}
+details div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+  padding: 10px;
+}
+.buttna{
+  width: 87%;
+}
